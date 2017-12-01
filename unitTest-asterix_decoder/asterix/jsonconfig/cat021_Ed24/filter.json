@@ -1,0 +1,22 @@
+{
+	"decoderFilter": 
+	{
+		"typeOfFiltering": "inclusive",
+		"itemsToFilter": 
+		[
+			"I021_010",
+			"I021_220"
+		]
+	},
+
+	"encoderFilter": 
+	{
+		"typeOfFiltering": "inclusive",
+		"itemsToFilter": 
+		[
+			"I021_010",
+			"I021_220",
+			"MES"
+		]
+	}
+}

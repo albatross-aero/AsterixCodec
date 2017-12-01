@@ -1,0 +1,13 @@
+{
+	"itemCollection": [
+		{
+			"name": "SP",
+			"type": "repetitive",
+			"lengthInByte": 4,
+			"elements": [
+				["Target Report", "16", "toHexadecimal", "IntegerValue", "", "1"],
+				["Identifier", "16", "toHexadecimal", "IntegerValue", "", "1"]
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"decoderFilter": 
+	{
+		"typeOfFiltering": "inclusive",
+		"categoriesToFilter": 
+		[
+			{
+				"category": 21,
+				"dataSourcesToFilter": 
+				[
+					"25-46",
+					"50-80"
+				]
+			},
+			{
+				"category": 62
+			}
+		]
+	},
+
+	"encoderFilter": 
+	{
+		"typeOfFiltering": "inclusive",
+		"categoriesToFilter": 
+		[
+			{
+				"category": 62
+			}
+		]
+	}
+}

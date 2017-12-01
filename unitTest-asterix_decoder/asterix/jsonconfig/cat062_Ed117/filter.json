@@ -1,0 +1,21 @@
+{
+	"decoderFilter": 
+	{
+		"typeOfFiltering": "inclusive",
+		"itemsToFilter": 
+		[
+			"I062_010",
+			"I062_380"
+			
+			
+		]
+	},
+	"encoderFilter": 
+	{
+		"typeOfFiltering": "exclusive",
+		"itemsToFilter": 
+		[
+			"I062_380"
+		]
+	}
+}
