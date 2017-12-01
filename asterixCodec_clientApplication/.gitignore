@@ -1,9 +1,0 @@
-/Debug/
-/output/
-/.settings/
-
-/parsing_output.json
-/parsing_output_big.json
-failure_report.log
-asterix_decoder
-bytestream.ast
