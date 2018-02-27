@@ -1,0 +1,158 @@
+{
+  "itemCollection": [
+    {
+      "name": "I065_000",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MessageType",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "1~3",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I065_010",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "SAC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SIC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I065_015",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Service Identification",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I065_020",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "BTN",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I065_030",
+      "type": "FixedLength",
+      "lengthInByte": 3,
+      "elements": [
+        [
+          "TimeOfMessage",
+          "24",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.0078125"
+        ]
+      ]
+    },
+    {
+      "name": "I065_040",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "NOGO",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~3",
+          "1"
+        ],
+        [
+          "OVL",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "TSV",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "PSS",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~3",
+          "1"
+        ],
+        [
+          "STTN",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I065_050",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Report",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "1~16",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "compoundSubitemCollection": []
+}

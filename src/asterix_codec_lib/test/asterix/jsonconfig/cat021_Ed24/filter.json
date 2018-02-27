@@ -1,0 +1,12 @@
+{
+  "decoderFilter": {
+    "typeOfFiltering": "inclusive",
+    "itemsToFilter": [
+    ]
+  },
+  "encoderFilter": {
+    "typeOfFiltering": "inclusive",
+    "itemsToFilter": [
+    ]
+  }
+}

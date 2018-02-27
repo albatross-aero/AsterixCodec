@@ -1,0 +1,314 @@
+{
+  "itemCollection": [
+    {
+      "name": "I063_010",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "SAC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SIC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I063_015",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Service Identification",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I063_030",
+      "type": "FixedLength",
+      "lengthInByte": 3,
+      "elements": [
+        [
+          "TimeOfMessage",
+          "24",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.0078125"
+        ]
+      ]
+    },
+    {
+      "name": "I063_050",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "SensorId-SAC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SensorId-SIC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I063_060",
+      "type": "ExtendedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "CON",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~3",
+          "1"
+        ],
+        [
+          "PSR",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "SSR",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "MDS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "ADS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "MLT",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "OPS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "ODP",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "OXT",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "MSC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "TSV",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "NPW",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0~1",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I063_070",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "TSB",
+          "16",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I063_080",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "SRG",
+          "16",
+          "CA2toDecimal",
+          "DoubleValue",
+          "",
+          "0.00001"
+        ],
+        [
+          "SRB",
+          "16",
+          "CA2toDecimal",
+          "DoubleValue",
+          "",
+          "0.0078125"
+        ]
+      ]
+    },
+    {
+      "name": "I063_081",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "SAB",
+          "16",
+          "CA2toDecimal",
+          "DoubleValue",
+          "",
+          "0.00549316406"
+        ]
+      ]
+    },
+    {
+      "name": "I063_090",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "PRG",
+          "16",
+          "CA2toDecimal",
+          "DoubleValue",
+          "",
+          "0.00001"
+        ],
+        [
+          "PRB",
+          "16",
+          "CA2toDecimal",
+          "DoubleValue",
+          "",
+          "0.0078125"
+        ]
+      ]
+    },
+    {
+      "name": "I063_091",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "PAB",
+          "16",
+          "CA2toDecimal",
+          "DoubleValue",
+          "",
+          "0.00549316406"
+        ]
+      ]
+    },
+    {
+      "name": "I063_092",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "PEB",
+          "16",
+          "CA2toDecimal",
+          "DoubleValue",
+          "",
+          "0.00549316406"
+        ]
+      ]
+    }
+  ],
+  "compoundSubitemCollection": []
+}

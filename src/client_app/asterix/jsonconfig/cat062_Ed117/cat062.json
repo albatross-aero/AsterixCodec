@@ -1,0 +1,4503 @@
+{
+  "itemCollection": [
+    {
+      "name": "I062_010",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "SAC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SIC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_015",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ServiceIdentification",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_040",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "TrackNumber",
+          "16",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_060",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "V",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "G",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "CH",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "Mode3A",
+          "12",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_070",
+      "type": "FixedLength",
+      "lengthInByte": 3,
+      "elements": [
+        [
+          "TimeOfTrackInformation",
+          "24",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.0078125"
+        ]
+      ]
+    },
+    {
+      "name": "I062_080",
+      "type": "ExtendedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MON",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SPI",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MRH",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SRC",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "CNF",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SIM",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TSE",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TSB",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FPC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "AFF",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "STP",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "KOS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "AMA",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MD4",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "ME",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MI",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MD5",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "CST",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "PSR",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SSR",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MDS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "ADS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SUC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "AAC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SDS",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "EMS",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "PFT",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FPLT",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "DUPT",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "DUPF",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "DUPM",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_100",
+      "type": "FixedLength",
+      "lengthInByte": 6,
+      "elements": [
+        [
+          "X",
+          "24",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.5"
+        ],
+        [
+          "Y",
+          "24",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.5"
+        ]
+      ]
+    },
+    {
+      "name": "I062_105",
+      "type": "FixedLength",
+      "lengthInByte": 8,
+      "elements": [
+        [
+          "Latitude-WGS84",
+          "32",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-90~90",
+          "0.00000536442"
+        ],
+        [
+          "Longitude-WGS84",
+          "32",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-180~lt(180)",
+          "0.00000536442"
+        ]
+      ]
+    },
+    {
+      "name": "I062_110",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SUM",
+          "0",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PMN",
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "POS",
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GA",
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "EM1",
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TOS",
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "XP",
+          "6",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "I062_120",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "Mode2",
+          "12",
+          "toOctal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_130",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Calculated Geometric Altitude",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-1500~150000",
+          "6.25"
+        ]
+      ]
+    },
+    {
+      "name": "I062_135",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "QNH",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Calculated Track Barometric Altitude",
+          "15",
+          "CA2toDecimal",
+          "FloatValue",
+          "-15~1500",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "I062_136",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Measured Flight Level",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-15~1500",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "I062_185",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "Vx",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-8192~8191.75",
+          "0.25"
+        ],
+        [
+          "Vy",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-8192~8191.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "I062_200",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Transversal Acceleration",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Longitudinal Acceleration",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Vertical Rate",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Altitude Discrepancy Flag",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_210",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Ax",
+          "8",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ],
+        [
+          "Ay",
+          "8",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "I062_220",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Rate of Climb/Descent",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "6.25"
+        ]
+      ]
+    },
+    {
+      "name": "I062_245",
+      "type": "FixedLength",
+      "lengthInByte": 7,
+      "elements": [
+        [
+          "STI",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~2",
+          "1"
+        ],
+        [
+          "Spare",
+          "6",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "TargetID",
+          "48",
+          "toTargetId",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_270",
+      "type": "ExtendedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Length",
+          "7",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Orientation",
+          "7",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "2.81"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Width",
+          "7",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_290",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TRK",
+          "7",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PSR",
+          "8",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SSR",
+          "9",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MDS",
+          "10",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ADS",
+          "11",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ES",
+          "12",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "VDL",
+          "13",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "UAT",
+          "14",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "LOP",
+          "15",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MLT",
+          "16",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "I062_295",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MFL",
+          "17",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MD1",
+          "18",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MD2",
+          "19",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MDA",
+          "20",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MD4",
+          "21",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MD5",
+          "22",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MHG",
+          "23",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IAS",
+          "24",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TAS",
+          "25",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAL",
+          "26",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "FSS",
+          "27",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TID",
+          "28",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "COM",
+          "29",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAB",
+          "30",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACS",
+          "31",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "BVR",
+          "32",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GVR",
+          "33",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "RAN",
+          "34",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TAR",
+          "35",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TAN",
+          "36",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GSP",
+          "37",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "VUN",
+          "38",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MET",
+          "39",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "EMC",
+          "40",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "POS",
+          "41",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GAL",
+          "42",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PUN",
+          "43",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MB",
+          "44",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IAR",
+          "45",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MAC",
+          "46",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "BPS",
+          "47",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "I062_300",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "VFI",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "0~16",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "I062_340",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SID",
+          "48",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "POS",
+          "49",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "HEI",
+          "50",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MDC",
+          "51",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MDA",
+          "52",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TYP",
+          "53",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "I062_380",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ADR",
+          "54",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ID",
+          "55",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MHG",
+          "56",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IAS",
+          "57",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TAS",
+          "58",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAL",
+          "59",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "FSS",
+          "60",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TIS",
+          "61",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TID",
+          "62",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "COM",
+          "63",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAB",
+          "64",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACS",
+          "65",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "BVR",
+          "66",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GVR",
+          "67",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "RAN",
+          "68",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TAR",
+          "69",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TAN",
+          "70",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GSP",
+          "71",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "VUN",
+          "72",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MET",
+          "73",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "EMC",
+          "74",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "POS",
+          "75",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GAL",
+          "76",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PUN",
+          "77",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MB",
+          "78",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IAR",
+          "79",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MAC",
+          "80",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "BPS",
+          "81",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "I062_390",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TAG",
+          "82",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "CSN",
+          "83",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IFI",
+          "84",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "FCT",
+          "85",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TAC",
+          "86",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "WTC",
+          "87",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DEP",
+          "88",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DST",
+          "89",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "RDS",
+          "90",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "CFL",
+          "91",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "CTL",
+          "92",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "TOD",
+          "93",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AST",
+          "94",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "STS",
+          "95",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "STD",
+          "96",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "STA",
+          "97",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PEM",
+          "98",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PEC",
+          "99",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "I062_500",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "APC",
+          "100",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "COV",
+          "101",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "APW",
+          "102",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AGA",
+          "103",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ABA",
+          "104",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ATV",
+          "105",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AA",
+          "106",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ARC",
+          "107",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "I062_510",
+      "type": "ExtendedLength",
+      "lengthInByte": 3,
+      "elements": [
+        [
+          "System Unit Identification",
+          "8",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "System Track Number",
+          "15",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "SP",
+      "type": "ExplicitLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SP",
+          "0",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "compoundSubitemCollection": [
+    {
+      "name": "SUM",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "M5",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "ID",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "DA",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "M1",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "M2",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "M3",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Pulse-X",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "PMN",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "Spare",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "PIN",
+          "14",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "NAT",
+          "5",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "Spare",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "MIS",
+          "6",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "POS",
+      "type": "FixedLength",
+      "lengthInByte": 6,
+      "elements": [
+        [
+          "Latitude",
+          "24",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-90~90",
+          "0.000021457672"
+        ],
+        [
+          "Longitude",
+          "24",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-180~lt(180)",
+          "0.000021457672"
+        ]
+      ]
+    },
+    {
+      "name": "GA",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "RES",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "GA",
+          "14",
+          "CA2toDecimal",
+          "IntegerValue",
+          "-1000~8191",
+          "25"
+        ]
+      ]
+    },
+    {
+      "name": "EM1",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "Extended Mode 1 Code",
+          "12",
+          "toOctal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TOS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TOS",
+          "8",
+          "CA2toDecimal",
+          "IntegerValue",
+          "",
+          "0.0078125"
+        ]
+      ]
+    },
+    {
+      "name": "XP",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Spare",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "X5",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "XC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "X3",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "X2",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "X1",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TRK",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TRK",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "PSR",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "PSR-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "SSR",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SSR-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MDS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MDS-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "ADS",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "ADS-Age",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "0~16383.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "ES",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ES-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "VDL",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "VDL-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "UAT",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "UAT-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "LOP",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "LOP-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MLT",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MLT-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MFL",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MFL",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MD1",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MD1",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MD2",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MD2",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MDA",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MDA",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "MD4",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MD4-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MD5",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MD5-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MHG",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MHG",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "IAS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "IAS",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "TAS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TAS",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "SAL",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SAL",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "FSS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "FSS",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "TID",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TID",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "COM",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "COM",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "SAB",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SAB",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "ACS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ACS-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "BVR",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "BVR-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "GVR",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "GVR-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "RAN",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "RAN-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "TAR",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TAR-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "TAN",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "TAN-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "GSP",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "GSP-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "VUN",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "VUN-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MET",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MET",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "EMC",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "EMC",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "POS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "POS",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "GAL",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "GAL",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "PUN",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "PUN-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MB",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MB",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "IAR",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "IAR-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MAC",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "MAC-Age",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "BPS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "BPS",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "0~63.75",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "SID",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "SID-SAC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SID-SIC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "POS",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "RHO",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "0~256",
+          "0.00390625"
+        ],
+        [
+          "THETA",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.0055"
+        ]
+      ]
+    },
+    {
+      "name": "HEI",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "HEIGHT",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "25"
+        ]
+      ]
+    },
+    {
+      "name": "MDC",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "MDC-V",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MDC-G",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Last Measured Mode C Code",
+          "14",
+          "CA2toDecimal",
+          "FloatValue",
+          "-12~1270",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "MDA",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "MD3A-V",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MD3A-G",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "MD3A-L",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "MDA-Mode3A",
+          "12",
+          "toOctal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TYP",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "DS-TYP",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TYP-SIM",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TYP-RAB",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TYP-TST",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "ADR",
+      "type": "FixedLength",
+      "lengthInByte": 3,
+      "elements": [
+        [
+          "Target Address",
+          "24",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "ID",
+      "type": "FixedLength",
+      "lengthInByte": 6,
+      "elements": [
+        [
+          "Target ID",
+          "48",
+          "toTargetId",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "MHG",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Magnetic Heading",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.0055"
+        ]
+      ]
+    },
+    {
+      "name": "IAS",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "IM",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Air Speed",
+          "15",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.001",
+          "0.00006103515"
+        ]
+      ]
+    },
+    {
+      "name": "TAS",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "True Air Speed",
+          "16",
+          "toDecimal",
+          "IntegerValue",
+          "0~2046",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "SAL",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "SAS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Source",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SAL-ALT",
+          "13",
+          "CA2toDecimal",
+          "IntegerValue",
+          "-1300~100000",
+          "25"
+        ]
+      ]
+    },
+    {
+      "name": "FSS",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "MV",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "AH",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "AM",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FSSA-ALT",
+          "13",
+          "CA2toDecimal",
+          "IntegerValue",
+          "-1300~100000",
+          "25"
+        ]
+      ]
+    },
+    {
+      "name": "TIS",
+      "type": "ExtendedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "NAV",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "NVB",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "5",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TID",
+      "type": "RepetitiveLength",
+      "lengthInByte": 15,
+      "elements": [
+        [
+          "TCA",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "NC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TCP Number",
+          "6",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Altitude",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-1500~150000",
+          "10"
+        ],
+        [
+          "LatWGS84-TID",
+          "24",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-90~90",
+          "0.00002145767"
+        ],
+        [
+          "LongWGS84-TID",
+          "24",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-180~lt(180)",
+          "0.00002145767"
+        ],
+        [
+          "Point Type",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0~11",
+          "1"
+        ],
+        [
+          "TD",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "1~3",
+          "1"
+        ],
+        [
+          "TRA",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TOA",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TOV",
+          "24",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TTR",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "0~655.35",
+          "0.01"
+        ]
+      ]
+    },
+    {
+      "name": "COM",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "ADD-COM",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "STAT",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "0~5",
+          "1"
+        ],
+        [
+          "Spare",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "SSC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "COM-ARC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "AIC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "B1A",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "B1B",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "SAB",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "AC",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~2",
+          "1"
+        ],
+        [
+          "MN",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~2",
+          "1"
+        ],
+        [
+          "DC",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~2",
+          "1"
+        ],
+        [
+          "GBS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "6",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "Stat",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "ACS",
+      "type": "FixedLength",
+      "lengthInByte": 7,
+      "elements": [
+        [
+          "ACS",
+          "56",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "BVR",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "BVR",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "6.25"
+        ]
+      ]
+    },
+    {
+      "name": "GVR",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "GVR",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "6.25"
+        ]
+      ]
+    },
+    {
+      "name": "RAN",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "RAN",
+          "16",
+          "CA2toDecimal",
+          "IntegerValue",
+          "-180~180",
+          "0.01"
+        ]
+      ]
+    },
+    {
+      "name": "TAR",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "TI",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "6",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "Rate of Turn",
+          "7",
+          "CA2toDecimal",
+          "FloatValue",
+          "-15~15",
+          "0.25"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TAN",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "TAN",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.0055"
+        ]
+      ]
+    },
+    {
+      "name": "GSP",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "GSP",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-2~lt(2)",
+          "0.0000610352"
+        ]
+      ]
+    },
+    {
+      "name": "VUN",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "VUN",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "MET",
+      "type": "FixedLength",
+      "lengthInByte": 8,
+      "elements": [
+        [
+          "WS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "WD",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TMP",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TRB",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "Wind Speed",
+          "16",
+          "toDecimal",
+          "IntegerValue",
+          "0~300",
+          "1"
+        ],
+        [
+          "Wind Direction",
+          "16",
+          "toDecimal",
+          "IntegerValue",
+          "1~360",
+          "1"
+        ],
+        [
+          "Temperature",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-100~100",
+          "0.25"
+        ],
+        [
+          "Turbolence",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "0~15",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "EMC",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ECAT",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "1~24",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "POS",
+      "type": "FixedLength",
+      "lengthInByte": 6,
+      "elements": [
+        [
+          "Latitude-WGS84-POS",
+          "24",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-90~90",
+          "0.00002145767"
+        ],
+        [
+          "Longitude-WGS84-POS",
+          "24",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-180~lt(180)",
+          "0.00002145767"
+        ]
+      ]
+    },
+    {
+      "name": "GAL",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "GAL-ALT",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-1500~150000",
+          "6.25"
+        ]
+      ]
+    },
+    {
+      "name": "PUN",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "PUN",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "4",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "MB",
+      "type": "RepetitiveLength",
+      "lengthInByte": 9,
+      "elements": [
+        [
+          "MB DATA",
+          "64",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "BDS1",
+          "4",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "BDS2",
+          "4",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "IAR",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "IAR",
+          "16",
+          "toDecimal",
+          "IntegerValue",
+          "0~1100",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "MAC",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Mach Number",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "0~4096",
+          "0.008"
+        ]
+      ]
+    },
+    {
+      "name": "BPS",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "BAR",
+          "12",
+          "toDecimal",
+          "FloatValue",
+          "0~409.5",
+          "0.1"
+        ]
+      ]
+    },
+    {
+      "name": "TAG",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "TAG-SAC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "TAG-SIC",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "CSN",
+      "type": "FixedLength",
+      "lengthInByte": 7,
+      "elements": [
+        [
+          "CSN-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "CSN-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "CSN-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "CSN-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "CSN-Char5",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "CSN-Char6",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "CSN-Char7",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "IFI",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "IFI-TYP",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "NBR",
+          "27",
+          "toDecimal",
+          "IntegerValue",
+          "0~99999999",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "FCT",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "GAT-OAT",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "FR1-FR2",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "RVSM",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "HPR",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TAC",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "TAC-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "TAC-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "TAC-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "TAC-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "WTC",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "WTC",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "DEP",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "ADEP-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "ADEP-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "ADEP-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "ADEP-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "DST",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "ADES-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "ADES-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "ADES-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "ADES-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "RDS",
+      "type": "FixedLength",
+      "lengthInByte": 3,
+      "elements": [
+        [
+          "NU1",
+          "8",
+          "toASCII",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "NU2",
+          "8",
+          "toASCII",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "LTR",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "CFL",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "CFL",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "CTL",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Centre",
+          "8",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Position",
+          "8",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TOD",
+      "type": "RepetitiveLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "TOD-TYP",
+          "5",
+          "toDecimal",
+          "IntegerValue",
+          "0~13",
+          "1"
+        ],
+        [
+          "DAY",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~2",
+          "1"
+        ],
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "HOR",
+          "5",
+          "toDecimal",
+          "IntegerValue",
+          "0~23",
+          "1"
+        ],
+        [
+          "Spare",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "MIN",
+          "6",
+          "toDecimal",
+          "IntegerValue",
+          "0~56",
+          "1"
+        ],
+        [
+          "AVS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "SEC",
+          "6",
+          "toDecimal",
+          "IntegerValue",
+          "0~59",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "AST",
+      "type": "FixedLength",
+      "lengthInByte": 6,
+      "elements": [
+        [
+          "AST-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "AST-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "AST-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "AST-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "AST-Char5",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "AST-Char6",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "STS",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "EMP",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~2",
+          "1"
+        ],
+        [
+          "AVL",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0~2",
+          "1"
+        ],
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "STD",
+      "type": "FixedLength",
+      "lengthInByte": 7,
+      "elements": [
+        [
+          "STD-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STD-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STD-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STD-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STD-Char5",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STD-Char6",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STD-Char7",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "STA",
+      "type": "FixedLength",
+      "lengthInByte": 7,
+      "elements": [
+        [
+          "STA-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STA-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STA-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STA-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STA-Char5",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STA-Char6",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "STA-Char7",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "PEM",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Spare",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "PEM-Validity",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "PEM-Mode3A",
+          "12",
+          "toOctal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "PEC",
+      "type": "FixedLength",
+      "lengthInByte": 7,
+      "elements": [
+        [
+          "PEC-Char1",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "PEC-Char2",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "PEC-Char3",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "PEC-Char4",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "PEC-Char5",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "PEC-Char6",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ],
+        [
+          "PEC-Char7",
+          "8",
+          "toASCII",
+          "StringValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "APC",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "APC X",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.5"
+        ],
+        [
+          "APC Y",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.5"
+        ]
+      ]
+    },
+    {
+      "name": "COV",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "COV",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-16383~16383",
+          "0.5"
+        ]
+      ]
+    },
+    {
+      "name": "APW",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "APW Lat",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-90~90",
+          "0.000005364418"
+        ],
+        [
+          "APW Lon",
+          "16",
+          "CA2toDecimal",
+          "FloatValue",
+          "-180~lt(180)",
+          "0.000005364418"
+        ]
+      ]
+    },
+    {
+      "name": "AGA",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "AGA",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "6.25"
+        ]
+      ]
+    },
+    {
+      "name": "ABA",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ABA",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "ATV",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "ATV X",
+          "8",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ],
+        [
+          "ATV Y",
+          "8",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "AA",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "AA X",
+          "8",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ],
+        [
+          "AA Y",
+          "8",
+          "CA2toDecimal",
+          "FloatValue",
+          "",
+          "0.25"
+        ]
+      ]
+    },
+    {
+      "name": "ARC",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ARC",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "6.25"
+        ]
+      ]
+    }
+  ]
+}
