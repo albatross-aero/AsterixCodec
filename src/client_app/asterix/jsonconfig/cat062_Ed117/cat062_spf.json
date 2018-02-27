@@ -1,0 +1,28 @@
+{
+  "itemCollection": [
+    {
+      "name": "SP",
+      "type": "RepetitiveLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "Target Report",
+          "16",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Identifier",
+          "16",
+          "toHexadecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "compoundSubitemCollection": []
+}
