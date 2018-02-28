@@ -1,0 +1,544 @@
+{
+  "itemCollection": [
+    {
+      "name": "BPS",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "BPS",
+          "12",
+          "toDecimal",
+          "FloatValue",
+          "0~409.5",
+          "0.1"
+        ]
+      ]
+    },
+    {
+      "name": "SelH",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "HDR",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Stat",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "SelH",
+          "10",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.703125"
+        ]
+      ]
+    },
+    {
+      "name": "NAV",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "AP",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "1",
+          "1"
+        ],
+        [
+          "VN-REF",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "1",
+          "1"
+        ],
+        [
+          "AH-REF",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "1",
+          "1"
+        ],
+        [
+          "AM-REF",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "1",
+          "1"
+        ],
+        [
+          "Spare",
+          "4",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "GAO",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "GAO",
+          "8",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "SGV",
+      "type": "ExtendedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "STP",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "HTS",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "HTT",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "HRD",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "GSS",
+          "11",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.125"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "HGT",
+          "7",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "2.8125"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "STA",
+      "type": "ExtendedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "ES",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "UAT",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "5",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "FX",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "TNH",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "TNH",
+          "16",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.0055"
+        ]
+      ]
+    },
+    {
+      "name": "MES",
+      "type": "CompoundLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SUM",
+          "0",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "PNO",
+          "1",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "EM1",
+          "2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "XP",
+          "3",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "FOM",
+          "4",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M2",
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "compoundSubitemCollection": [
+    {
+      "name": "SUM",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "SUM",
+          "8",
+          "toDecimal",
+          "FloatValue",
+          "",
+          "0.1"
+        ]
+      ]
+    },
+    {
+      "name": "PNO",
+      "type": "FixedLength",
+      "lengthInByte": 4,
+      "elements": [
+        [
+          "Spare",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "PIN",
+          "14",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "5",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "NO",
+          "11",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "EM1",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "EM1V",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "EM1L",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "EM1",
+          "12",
+          "toOctal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "XP",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Spare",
+          "2",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "XP",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "X5",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "XC",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "X3",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "X2",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "X1",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "FOM",
+      "type": "FixedLength",
+      "lengthInByte": 1,
+      "elements": [
+        [
+          "Spare",
+          "3",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "FOM",
+          "5",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "M2",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "M2V",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "M2L",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ],
+        [
+          "Spare",
+          "1",
+          "toDecimal",
+          "IntegerValue",
+          "0",
+          "1"
+        ],
+        [
+          "M2",
+          "12",
+          "toDecimal",
+          "IntegerValue",
+          "",
+          "1"
+        ]
+      ]
+    }
+  ]
+}

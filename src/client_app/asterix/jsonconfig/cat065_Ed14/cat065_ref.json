@@ -1,0 +1,43 @@
+{
+  "itemCollection": [
+    {
+      "name": "SystemReferencePointPosition",
+      "type": "FixedLength",
+      "lengthInByte": 8,
+      "elements": [
+        [
+          "Latitude",
+          "32",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-90~90",
+          "0.00000016764"
+        ],
+        [
+          "Longitude",
+          "32",
+          "CA2toDecimal",
+          "DoubleValue",
+          "-180~lt(180)",
+          "0.00000016764"
+        ]
+      ]
+    },
+    {
+      "name": "ARL",
+      "type": "FixedLength",
+      "lengthInByte": 2,
+      "elements": [
+        [
+          "ARL",
+          "16",
+          "toDecimal",
+          "IntegerValue",
+          "0~65532",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "compoundSubitemCollection": []
+}

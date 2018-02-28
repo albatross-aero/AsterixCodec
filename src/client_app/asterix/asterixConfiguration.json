@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "categoryNumber": 21,
+      "uapAndMandatoryItemsFile": "asterix/jsonconfig/cat021/uapAndMandatoryItems.json",
+      "itemsDescriptionFile": "asterix/jsonconfig/cat021/cat021.json",
+      "refDescriptionFile": "asterix/jsonconfig/cat021/cat021_Ed23Ed24/cat021_ref_Ed13.json",
+      "spfDescriptionFile": "",
+      "filterFile": "",
+      "dataSourcesInDec": [],
+      "default": true
+    },
+    {
+      "categoryNumber": 62,
+      "uapAndMandatoryItemsFile": "asterix/jsonconfig/cat062_Ed117/uapAndMandatoryItems.json",
+      "itemsDescriptionFile": "asterix/jsonconfig/cat062_Ed117/cat062.json",
+      "refDescriptionFile": "",
+      "spfDescriptionFile": "asterix/jsonconfig/cat062_Ed117/cat062_spf.json",
+      "filterFile": "",
+      "dataSourcesInDec": [],
+      "default": true
+    },
+    {
+      "categoryNumber": 63,
+      "uapAndMandatoryItemsFile": "asterix/jsonconfig/cat063_Ed14/uapAndMandatoryItems.json",
+      "refDescriptionFile": "",
+      "spfDescriptionFile": "",
+      "itemsDescriptionFile": "asterix/jsonconfig/cat063_Ed14/cat063.json",
+      "filterFile": "",
+      "dataSourcesInDec": [],
+      "default": true
+    },
+    {
+      "categoryNumber": 65,
+      "uapAndMandatoryItemsFile": "asterix/jsonconfig/cat065_Ed14/uapAndMandatoryItems.json",
+      "itemsDescriptionFile": "asterix/jsonconfig/cat065_Ed14/cat065.json",
+      "refDescriptionFile": "asterix/jsonconfig/cat065_Ed14/cat065_ref.json",
+      "spfDescriptionFile": "",
+      "filterFile": "",
+      "dataSourcesInDec": [],
+      "default": true
+    }
+  ]
+}

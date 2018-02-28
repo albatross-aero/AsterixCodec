@@ -1,0 +1,7 @@
+
+.idea/
+build/
+src/asterix_codec_lib/doc/
+/src/client_app/failure_report.log
+/src/asterix_codec_lib/include/utils/asterix_json_description/JsonCategoriesDescriptionLoader_old.h
+/src/asterix_codec_lib/src/utils/asterix_json_description/JsonCategoriesDescriptionLoader_old.cpp
