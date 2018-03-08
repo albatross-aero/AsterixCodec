@@ -60,6 +60,12 @@ Be aware that the '_$_' symbol represents the shell prompt and shall not be writ
 * $ **cmake .**
 * $ **make all**
 
+### Running the client application
+Once you have compiled the sources, you will find in the build path the binary called _AsterixCodecClient_.
+To give it a try, please run the following command, which uses a preloaded CAT021 ASTERIX Record:
+* $ **./AsterixCodecClient**
+Be aware that the content of that Record is totally random (e.g. you will find un-acceptable coordinates values), so that you would be able to get a _failure_report.log_ file, where all problem faced during the _decoding_ phase are logged.
+
 ### Running the tests
 "Explain how to run the automated tests for this system"
 
